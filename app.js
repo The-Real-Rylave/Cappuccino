@@ -9,8 +9,8 @@ const nodemailer = require('nodemailer');
 const app = express();
 const port = 3000;
 
-const CLIENT_ID = '1308617303071391837';
-const CLIENT_SECRET = 'GCawIABfIqLhjaa82eTbeLST0562it-o';
+const CLIENT_ID = 'CLIENT ID HERE';
+const CLIENT_SECRET = 'CLIENT SECTRET HERE';
 const CALLBACK_URL = 'http://localhost:3000/callback';
 
 app.set('view engine', 'ejs');
@@ -64,8 +64,8 @@ const getBotDetails = async (token) => {
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'itsrylave@gmail.com',
-        pass: 'Jdurga21'
+        user: 'EMAIL',
+        pass: 'PASSWORD'
     }
 });
 
