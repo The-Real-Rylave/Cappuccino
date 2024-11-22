@@ -1,4 +1,4 @@
-# Cappuccino
+# Cappuccino (Discord Bot Maker)
 
 ## Written By Flame AI Powered By Rylave AI
 
